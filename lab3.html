@@ -6,7 +6,7 @@
     <title>TheFacebook</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Verdana, Tahoma, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -15,6 +15,11 @@
             width: 100%;
             border-collapse: collapse;
             margin: auto;
+        }
+        td table {
+            width: 100%;
+            border-collapse:collapse;
+            padding: 10px 10px 10px 10px;
         }
         tr {
             border: 1px solid #ddd;
@@ -44,10 +49,9 @@
             font-weight: bold;
         }
         .sidebar {
-            background-color: #f2f2f2;
-            padding: 15px;
+            background-color: #f4f4f4;
         }
-        .sidebar h3 {
+        .sidebar p {
             color: #333;
         }
         .sidebar ul {
@@ -66,8 +70,9 @@
             background-color: #fff;
         }
         .profile-info {
-            border: 1px solid #ddd;
-            padding: 15px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
             background-color: #f9f9f9;
         }
         .profile-info h4 {
@@ -109,29 +114,29 @@
         </tr>
         <tr>
             <td class="sidebar" width="20%">
-                <h3>Quick Links</h3>
+                <input type="text" placeholder="Search" class="Search" required></input>
+                <p>Quick search</p>
                 <ul>
                     <li><a href="profile.html">My Profile</a></li>
                     <li><a href="groups.html">My Groups</a></li>
                     <li><a href="messages.html">My Messages</a></li>
                     <li><a href="friends.html">My Friends</a></li>
+                    <li><a href="awat.html">My Away Message</a></li>
+                    <li><a href="mobile.html">My Mobile Info</a></li>
+                    <li><a href="account.html">My Account</a></li>
+                    <li><a href="privacy.html">My Privacy</a></li>
                 </ul>
             </td>
             <td class="content" width="80%">
                 <h4>Scott Pearson's Profile</h4>
-                <div>
-                    <p>Scranton</p>
-                </div>
                 <table>
                     <tr>
-                        <td>
+                        <td width="40%">
                             <table>
                                 <tr>
-                                    <td>
-                                        <div class="profile-picture">
-                                            <h4>Picture</h4>
-                                            <img src="WIN_20240405_18_50_51_Pro.jpg" alt="Profile Picture" width="150" height="150">
-                                        </div>
+                                    <td class="profile-picture">
+                                        <h4>Picture</h4>
+                                        <img src="WIN_20240405_18_50_51_Pro.jpg" alt="Profile Picture" width="150" height="150">
                                     </td>
                                 </tr>
                             </table>
@@ -152,57 +157,49 @@
                             <table>
                                 <tr>
                                     <td>
-                                        <div>
                                             <h4>Connection</h4>
                                             <p>This is you.</p>
-                                        </div>
                                     </td>
                                 </tr>
                             </table>
                             <table>
                                 <tr>
                                     <td>
-                                        <div>
                                             <h4>Access</h4>
-                                            <p>fklejfknrjhdkfhkjvnri</p>
-                                        </div>
+                                            <p>Scott is currently logged in from a non-residential location.</p>
                                     </td>
                                 </tr>
                             </table>
                             <table>
                                 <tr>
                                     <td>
-                                        <div>
                                             <h4>Other Schools</h4>
-                                            <p>kfhejkfhruhfrufirr</p>
-                                        </div>
+                                            <p>Harword universty colloge location.</p>
                                     </td>
                                 </tr>
                             </table>
                         </td>
-                        <td>
-                            <div class="profile-info">
-                                <h4>Information</h4>
-                                <p><strong>Account Info:</strong></p>
-                                <p>Name:</p>
-                                <p>Member Since:</p>
-                                <p>Last Update:</p>
-                                <p><strong>Basic Info:</strong></p>
-                                <p>Email:</p>
-                                <p>Status:</p>
-                                <p>Sex:</p>
-                                <p>Year:</p>
-                                <p>Concentration:</p>
-                                <p>Phone:</p>
-                                <p>High school:</p>
-                                <p><strong>Extended Info:</strong></p>
-                                <p>Screenname:</p>
-                                <p>Looking for:</p>
-                                <p>Interested In:</p>
-                                <p>Relationship Status:</p>
-                                <p>Political views:</p>
-                                <p>Interests:</p>
-                            </div>
+                        <td class="profile-info" width="60%">
+                            <h4>Information</h4>
+                            <p><strong>Account Info:</strong></p>
+                            <p>Name: </p>
+                            <p>Member Since:</p>
+                            <p>Last Update:</p>
+                            <p><strong>Basic Info:</strong></p>
+                            <p>Email:</p>
+                            <p>Status:</p>
+                            <p>Sex:</p>
+                            <p>Year:</p> 
+                            <p>Concentration:</p>
+                            <p>Phone:</p>
+                            <p>High school:</p>
+                            <p><strong>Extended Info:</strong></p>
+                            <p>Screenname:</p>
+                            <p>Looking for:</p>
+                            <p>Interested In:</p>
+                            <p>Relationship Status:</p>
+                            <p>Political views:</p>                                
+                            <p>Interests:</p>
                         </td>
                     </tr>
                 </table>
