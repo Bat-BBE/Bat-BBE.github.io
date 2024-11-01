@@ -12,4 +12,4 @@ Allow: /includes/
 # Optional: Add a crawl delay if needed
 # Crawl-delay: 10
 
-Sitemap: https://bat-bbe.github.io/lab6_/sitemap.xml
+Sitemap: https://bat-bbe.github.io/sitemap.xml
